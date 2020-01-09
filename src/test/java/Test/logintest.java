@@ -27,7 +27,7 @@ public class logintest {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("karthikbdvt6");
 		driver.findElement(By.id("identifierId")).sendKeys(Keys.ENTER);
-		
+		driver.manage().window().maximize();
 		
 	}
 	@AfterSuite
